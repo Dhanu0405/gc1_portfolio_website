@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "_1JrIsOGyqojmM49Y",
+            });
+        })();
+    </script>
+</head>
+
+<body class="bg-light">
+
+    <!--NavBar Start-->
+
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+        <div class="container-lg">
+          <a class="navbar-brand text-danger fw-bold fs-4" href="#">Dhanush Rajesh</a>
+          <div class="dropdown">
+            <button class="btn btn-secondary btn-danger px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#home">Home</a></li>
+              <li><a class="dropdown-item" href="#about">About</a></li>
+              <li><a class="dropdown-item" href="#services">Services</a></li>
+              <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+              <li><a class="dropdown-item" href="#internship">Internship</a></li>
+              <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+              <li><a class="dropdown-item" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!--NavBar End-->
+
+    <!--Home Section Start-->
+
+    <section id="home" class="home py-5">
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="home-img text-center">
+                        <img src="img/Dhanush_Photo.png" class="rounded-circle mw-40" alt="profile img"/>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                    <div class="home-text">
+                        <p class="text-muted mb-1">Hello! I'm an aspiring</p>
+                        <h1 class="text-danger text-uppercase fs-1 fw-bold">Full Stack Developer</h1>
+                        <h2 class="fs-4">Dhanush Rajesh</h2>
+                        <p class="mt-4 text-muted">I am a passionate student with a strong interest in full stack development and hands-on experience with cloud technologies like AWS. I enjoy building intuitive and efficient web applications, and I am always excited to learn and apply new technologies in real-world projects.</p>
+                        <a href="#portfolio" class="btn btn-danger px-3 mt-3">My Work</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Home Section End-->
+
+    <!--About Section Start-->
+
+    <section id="about" class="about py-5">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">About Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3 class="fs-4 mb-3">Aspiring Full Stack Developer & Cloud Enthusiast</h3>
+                        <p class="text-muted">
+                            I'm a dedicated computer science student with a strong interest in web development and cloud engineering.
+                            My goal is to build engaging, user-friendly applications while continuously expanding my technical knowledge. 
+                            I enjoy working with front-end and back-end technologies and have hands-on experience with AWS.
+                        </p>
+                    </div>
+                    <div class="row text-center text-uppercase my-3">
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold">10+</h4>
+                                <p class="text-muted">Projects Completed</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold">5+</h4>
+                                <p class="text-muted">Certifications Earned</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold">100%</h4>
+                                <p class="text-muted">Commitment to Learning</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 d-flex align-items-center">
+                            <a href="https://drive.google.com/file/d/1q77UG8V2HEPPXfkD8XgiFWE9lsaWX-X7/view" class="btn px-3 btn-danger me-5">Download CV</a>
+                            <div class="social-links">
+                                <a href="https://x.com/dhanush_0405" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/dhanush-rajesh/" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://github.com/Dhanu0405" class="text-dark me-2"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="about-text">
+                        <div class="skill-item mb-4">
+                            <h3 class="fs-6">HTML</h3>
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="height: 5px">
+                                <div class="progress-bar bg-danger" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-4">
+                            <h3 class="fs-6">CSS</h3>
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="height: 5px">
+                                <div class="progress-bar bg-danger" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-4">
+                            <h3 class="fs-6">JavaScript</h3>
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 5px">
+                                <div class="progress-bar bg-danger" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-4">
+                            <h3 class="fs-6">Bootstrap</h3>
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="height: 5px">
+                                <div class="progress-bar bg-danger" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Section End-->
+
+    <!--Services Section Start-->
+
+    <section id="services" class="services py-5">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">What I Do</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="services-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Web Development</h3>
+                        <p class="text-muted">I design and build responsive websites using HTML, CSS, JavaScript, and Bootstrap, ensuring user-friendly and accessible web experiences.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="services-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Back-End Basics</h3>
+                        <p class="text-muted">Familiar with server-side programming and databases, I work with Node.js and SQL to implement essential back-end functionality.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="services-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Cloud Basics</h3>
+                        <p class="text-muted">I have hands-on experience with AWS, managing cloud resources and understanding core cloud concepts like storage, networking, and computing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Services Section End-->
+
+
+    <!--Portfolio Section Start-->
+
+    <section id="portfolio" class="portfolio py-5">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Latest Works and Certifications</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/resume.png" class="w-100 img-thumbnail" alt="portfolio item"/>
+                        <h3 class="text-capitalize fs-5 my-2">Resume Website</h3>
+                        <p class="mb-4"><a href="https://dhanu0405.github.io/React-Portfolio/" class="text-danger text-decoration-none">Live Demo</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/quiz.png" class="w-100 img-thumbnail" alt="portfolio item"/>
+                        <h3 class="text-capitalize fs-5 my-2">Interactive Quiz Website</h3>
+                        <p class="mb-4"><a href="https://dhanu0405.github.io/quiz-app/" class="text-danger text-decoration-none">Live Demo</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/video.png" class="w-100 img-thumbnail" alt="portfolio item"/>
+                        <h3 class="text-capitalize fs-5 my-2">Flask Video Meeting and Conference App</h3>
+                        <p class="mb-4"><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/aws-cloud.png" class="w-100 img-thumbnail" alt="portfolio item"/>
+                        <h3 class="text-capitalize fs-5 my-2">AWS Cloud Practitioner Essentials</h3>
+                        <p class="mb-4"><a href="img/Cloud Essentials Certificate.pdf" class="text-danger text-decoration-none">Certificate Link</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/aws-cloud-quest-cloud-practitioner.png" class="w-100 img-thumbnail" alt="portfolio item"/>
+                        <h3 class="text-capitalize fs-5 my-2">AWS Cloud Quest: Cloud Practitioner Badge</h3>
+                        <p class="mb-4"><a href="https://www.credly.com/badges/1b1ce269-2838-4748-89e6-d928db89e2ec/public_url" class="text-danger text-decoration-none">Badge Link</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Portfolio Section End-->
+
+    <!--Internship Availability Section Start-->
+
+    <section id="internship" class="internship bg-danger py-5">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="text-light fs-5">Interested in Collaborating?</p>
+                    <h2 class="fs-1 text-white mb-4">Open to Internship Opportunities</h2>
+                    <a href="#contact" class="btn btn-outline-light">Let's Connect</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Internship Availability Section End-->
+
+
+    <!--Testimonials Section Start-->
+
+    <section id="testimonials" class="testimonials py-5">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Testimonials</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <div id="carousel1" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" class="bg-danger" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" class="bg-danger" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner p-1">
+                            <!--Testi Item Start-->
+
+                            <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
+                                <div class="testi-author-info d-flex align-items-center">
+                                    <div class="author">
+                                        <h3 class="fs-6 mb-1">Dr. Priya Sharma</h3>
+                                        <p class="text-muted m-0">Professor of Computer Science</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">
+                                    "Dhanush demonstrates a strong aptitude for problem-solving and coding, particularly in full stack development projects. His attention to detail is exceptional."
+                                </p>
+                                <div class="rating text-danger">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+
+                            <!--Testi Item End-->
+
+                            <!--Testi Item Start-->
+
+                            <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                                <div class="testi-author-info d-flex align-items-center">
+                                    <div class="author">
+                                        <h3 class="fs-6 mb-1">Ananya Verma</h3>
+                                        <p class="text-muted m-0">Project Mentor</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">
+                                    "Working with Dhanush was a pleasure. His skills in cloud engineering and full stack development were instrumental in our project’s success."
+                                </p>
+                                <div class="rating text-danger">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+
+                            <!--Testi Item End-->
+
+                            <!--Testi Item Start-->
+
+                            <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                                <div class="testi-author-info d-flex align-items-center">
+                                    <div class="author">
+                                        <h3 class="fs-6 mb-1">Rohit Kumar</h3>
+                                        <p class="text-muted m-0">Peer & Project Teammate</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">
+                                    "Dhanush’s collaborative spirit and technical expertise in our recent project made a significant impact. He consistently goes above and beyond."
+                                </p>
+                                <div class="rating text-danger">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+
+                            <!--Testi Item End-->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Testimonials Section End-->
+
+    <!--Contact Section Start-->
+
+    <section id="contact" class="contact py-5">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Contact Me</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Alert Box for Success Message Start-->
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div id="alert-box" class="alert alert-success d-none" role="alert">
+                        <!-- Success message will display here -->
+                    </div>
+                </div>
+            </div>
+
+            <!--Alert Box for Success Message End-->
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-danger">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Email</h3>
+                            <p class="text-muted">dhanushr0405@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-danger">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Phone</h3>
+                            <p class="text-muted">+91 6360857294</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-danger">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Visit Office</h3>
+                            <p class="text-muted">Electronic City, Bangalore - 560100</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <form onsubmit="event.preventDefault(); SendMail();">
+                            <div class="row">
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" id="fullName" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm" required>
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <input type="email" id="email_id" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm" required>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-lg-12">
+                                    <input type="text" id="sub" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm" required>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-lg-12">
+                                    <textarea rows="5" id="msg" placeholder="Your Message" class="form-control form-control-lg fs-6 border-0 shadow-sm" required></textarea>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-lg-12">
+                                    <button type="submit" class="btn btn-danger">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section End-->
+
+    <!--Footer Section Start-->
+
+    <footer class="footer border-top py-4">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="m-0 text-center text-muted">&copy; 2024 Dhanush Rajesh</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Footer Section End-->
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
